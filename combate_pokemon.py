@@ -13,24 +13,25 @@ if pokemon_elegido == "Squirtle":
     nombre_pokemon = "Squirtle"
     ataque_pokemon = 8
 
-elif pokemon_elegido == "Charmader":
+elif pokemon_elegido == "Charmander":
     vida_enemigo = 80
-    nombre_pokemon = "Charmader"
+    nombre_pokemon = "Charmander"
     ataque_pokemon = 7
 
 elif pokemon_elegido == "Bulbasaur":
     vida_enemigo = 100
     nombre_pokemon = "Bulbasaur"
-    ataque_pokemon = 10
+    ataque_pokemon = 15
 
-while vida_pikachu > 0 or vida_enemigo > 0:
+while vida_pikachu >=0 or vida_enemigo >= :
     ataque_elegido = input("¿Que ataque vamos a usar? (Chispazo / Bola voltio)")
-
-    if ataque_elegido == "Chispazo"
+    if ataque_elegido == "Chispazo":
         vida_enemigo -= 10
 
-    if ataque_elegido == "Bola voltio"
+    if ataque_elegido == "Bola voltio":
         vida_enemigo -= 12
+
+    vida_pikachu -= ataque_pokemon
 
     print("La vida de {} ahora es de {}".format(nombre_pokemon, vida_enemigo))
 
